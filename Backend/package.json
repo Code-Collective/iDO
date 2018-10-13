@@ -1,0 +1,22 @@
+{
+  "name": "ido.backend",
+  "version": "0.0.1",
+  "description": "An express API server for iDo Frontend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haletothewood/iDO.git"
+  },
+  "author": "The Code Collective",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haletothewood/iDO/issues"
+  },
+  "homepage": "https://github.com/haletothewood/iDO#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
