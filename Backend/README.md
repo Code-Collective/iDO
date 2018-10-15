@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This is the node.js express server that will provide the backend API for our react native frontend application. It is connected to an [mLab](https://mlab.com/) mongodb databse that is hosted in AWS. 
+This is the node.js express server that will provide the backend API for our react native frontend application. It is connected to an [mLab](https://mlab.com/) mongodb database that is hosted in AWS. 
 
 ## Development
 
@@ -16,10 +16,5 @@ Open `secrets.kdbx` and follow the instructions in the file `mlab db ido-develop
 ### Run
 
 ```bash
-$ npm install
-$ npm start
-
-> ido.backend@0.0.1 start <PATH>
-> node server.js
-~ We are live and connected to database
+$ npm ci && npm start
 ```
