@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haletothewood/iDO.git"
+    "url": "git+https://github.com/Code-Collective/iDO.git"
   },
   "author": "The Code Collective",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/haletothewood/iDO/issues"
+    "url": "https://github.com/Code-Collective/iDO/issues"
   },
-  "homepage": "https://github.com/haletothewood/iDO#readme",
+  "homepage": "https://github.com/Code-Collective/iDO#readme",
   "dependencies": {
     "dotenv": "^6.1.0",
     "express": "^4.16.4",
