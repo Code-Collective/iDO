@@ -1,0 +1,35 @@
+{
+  "name": "ido.backend",
+  "version": "0.0.1",
+  "description": "An express API server for iDo Frontend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Collective/iDO.git"
+  },
+  "author": "The Code Collective",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code-Collective/iDO/issues"
+  },
+  "homepage": "https://github.com/Code-Collective/iDO#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
