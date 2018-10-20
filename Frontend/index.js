@@ -1,9 +1,13 @@
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
-import Header from './src/components/header';
+import { AppRegistry, View } from 'react-native';
+import Header from './src/components/Header';
+import PlanningList from './src/components/PlanningList';
 
 const App = () => (
-  <Header headerText={'Venues'} />
+  <View>
+    <Header headerText={'Venues'} />
+    <PlanningList />
+  </View>
 );
 
 
