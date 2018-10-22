@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import axios from 'axios';
+import PlanningListDetail from './PlanningListDetail'
 
 class PlanningList extends Component {
 
-  state = { items: [] };
+  state = { venues: [] };
 
   componentWillMount(){
     const url = 'https://api.foursquare.com/v2/venues/search'
@@ -20,7 +21,7 @@ class PlanningList extends Component {
       headers: {'Accept': 'application/json'},
       params: params
     }).then(response => 
-      this.setState({ items: response.data })
+      this.setState({ venues: response.data.response.venues })
       // console.log("RESPONSE: ", response.data.response.venues)
     ).catch(error => 
       console.log("Error: ", error)
@@ -28,11 +29,17 @@ class PlanningList extends Component {
 
   }
 
+  renderVenues(){
+    return this.state.venues.map(venue => 
+      <PlanningListDetail key={venue.id} venue={venue} />
+    ); 
+  }
+
   render() {
     console.log(this.state);
     return(
       <View>
-        <Text>Wedding Planning List!!</Text>
+        {this.renderVenues()}
       </View>
     );
   }
