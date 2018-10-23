@@ -35,6 +35,14 @@ We name our branches in the format `<App>/<Feature>` using '-' as a separator.
 $ git push origin frontend/implement-authentication'
 ```
 
+## Github
+
+We use [Github][gh] for our source control management, project management and use a feature driven approach to development. If you'd like to contribute you can fork the repo, create your feature branch a submit PR for review. Alternatively if you are invited by a current member you can clone the repo and submit a feature branch directly for review.
+
+If you would like to suggest a feature idea or an implementation of any CI/CD, testing or deployment configuration please add it as an [issue][gi] as this is what we use to manage what to work on next. All members can vote on issues to be implemented.
+
+Finally we use Github's [project board][gpb] to manage workflow and designate tasks.
+
 ## Passwords
 
 We store secrets (usernames and passwords) in a [KeePassX][kp] database located at [`secrets.kdbx`][kp].
@@ -42,3 +50,6 @@ We store secrets (usernames and passwords) in a [KeePassX][kp] database located 
 [ssg]: https://standardjs.com/
 [ch]: http://www.ericbmerritt.com/2011/09/21/commit-hygiene-and-git.html
 [kp]: https://www.keepassx.org/
+[gh]: https://www.github.com
+[gi]: https://github.com/Code-Collective/iDO/issues
+[gpb]: https://github.com/Code-Collective/iDO/projects/1
