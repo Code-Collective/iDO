@@ -6,7 +6,16 @@ We use a monorepo, and each top-level subfolder contains files specific to a pro
 
 ## Code style
 
-We favour using widely adopted code styles over our own preferred ones. For JavaScript, the [Standard style guide][ssg] should be followed when in doubt. When changing existing code, either follow the current style or convert everything into the new style (preferrably in a separate commit).
+We favour using widely adopted code styles over our own preferred ones. For JavaScript, the [Standard style guide][ssg] should be followed when in doubt. This is achieved using the eslint npm package, eslint text editor packager/extension and by configuring to auto-fix on save.
+
+```json
+{
+    "[Javascript]": {
+		"editor.formatOnSave": false
+	},
+	"eslint.autoFixOnSave": true
+}
+```
 
 ## READMEs
 
