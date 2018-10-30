@@ -37,7 +37,7 @@ $ git push origin frontend/implement-authentication'
 
 ## Github
 
-We use [Github][gh] for our source control management, project management and use a feature driven approach to development. If you'd like to contribute you can fork the repo, create your feature branch a submit PR for review. Alternatively if you are invited by a current member you can clone the repo and submit a feature branch directly for review.
+We use [Github][gh] for our source control management, project management and use a feature driven approach to development. If you'd like to contribute you can fork the repo, create your feature branch and submit PR for review. Alternatively if you are invited by a current member you can clone the repo and submit a feature branch directly for review.
 
 If you would like to suggest a feature idea or an implementation of any CI/CD, testing or deployment configuration please add it as an [issue][gi] as this is what we use to manage what to work on next. All members can vote on issues to be implemented.
 
