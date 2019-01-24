@@ -1,13 +1,13 @@
-import express from 'express'
-import { MongoClient } from 'mongodb'
-import { url } from './database/db.js'
-
 require('dotenv').config({ path: '../.env' })
+
+const express = require('express')
+const MongoClient = require('mongodb').MongoClient
+const db = require('./database/db.js')
 
 const app = express()
 const port = 8000
 
-MongoClient.connect(url, { useNewUrlParser: true }, (err, database) => {
+MongoClient.connect(db.url, { useNewUrlParser: true }, (err, database) => {
   if (err) return console.log(err)
 
   app.listen((process.env.PORT || port), () => {
